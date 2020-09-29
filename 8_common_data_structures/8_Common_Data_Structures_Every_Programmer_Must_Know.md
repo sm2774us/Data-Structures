@@ -305,6 +305,11 @@ From the last two examples given above, we can see that collision can arise when
 - Used to implement database indexes.
 - Used to implement associative arrays.
 - Used to implement the “set” data structure.
+_____________
+
+- **Module:** [hash_table.py](Hash_Table/hash_table.py)
+- **Module:** [hash_table_with_linked_list.py](Hash_Table/hash_table_with_linked_list.py)
+- **Module:** [double_hash.py](Hash_Table/double_hash.py)
 
 ___________________
 
@@ -324,9 +329,9 @@ Every node in a binary search tree comprises the following attributes.
 
 A binary search tree exhibits a unique property that distinguishes it from other trees. This property is known as the binary-search-tree property.
 
-Let x be a node in a binary search tree.
-- If y is a node in the left subtree of x, then y.key ≤ x.key
-- If y is a node in the right subtree of x, then y.key ≥ x.key
+Let `x` be a node in a binary search tree.
+- If `y` is a node in the left subtree of `x`, then `y.key ≤ x.key`
+- If `y` is a node in the right subtree of `x`, then `y.key ≥ x.key`
 
 ![Tree](images/tree.png)
 ###### Fig 6. Visualization of Basic Terminology of Trees.
